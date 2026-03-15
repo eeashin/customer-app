@@ -36,13 +36,13 @@ cd customer-app
 
 ### Step 2 – Create Environment Configuration
 
-Create a .env file in the project root directory and configure environment variables for DB and other application access. below is an example (feel free to use your own credntials) -
+Create a `.env` file in the project root directory and configure environment variables for DB and other application access. below is an example -
 
 ```
-POSTGRES_DB=emdb1
-POSTGRES_USER=emuser1
-POSTGRES_PASSWORD=eMpass!
+POSTGRES_DB=db
+POSTGRES_USER=user
+POSTGRES_PASSWORD=pass
 
-DB_HOST=emdb1
+DB_HOST=db
 DB_PORT=5432
 ```
