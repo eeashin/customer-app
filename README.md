@@ -192,6 +192,8 @@ The ETL script connects directly to the database and performs three steps:
 - Transform: Combine `first_name` and `surname` into `name` and calculate `total_value = quantity × unit_price`
 - Export: Write the transformed data to a timestamped `CSV` file in the `output/` directory
 
+---
+
 ## 4. What I Would Improve
 
 If more time were available, I would improve the solution in the following areas:
@@ -207,6 +209,8 @@ If more time were available, I would improve the solution in the following areas
 - **CI/CD and quality checks:** Add automated pipelines for testing, linting, formatting, and container builds.
 
 - **Scheduling and monitoring:** Run the ETL as a scheduled job with monitoring and alerting for failures.
+
+---
 
 ## Project Structure
 ```
