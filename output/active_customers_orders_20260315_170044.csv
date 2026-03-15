@@ -1,0 +1,26 @@
+customer_id,name,email,status,order_id,product_name,quantity,unit_price,total_value,order_date
+1,Alice Johnson,alice.johnson@example.com,active,1,Laptop Stand,1,29.99,29.99,2026-01-05
+1,Alice Johnson,alice.johnson@example.com,active,2,Wireless Mouse,2,15.5,31.0,2026-01-06
+1,Alice Johnson,alice.johnson@example.com,active,3,USB-C Hub,1,45.0,45.0,2026-01-09
+2,Bob Smith,bob.smith@example.com,active,4,Mechanical Keyboard,1,79.99,79.99,2026-01-08
+2,Bob Smith,bob.smith@example.com,active,5,27-inch Monitor,1,189.99,189.99,2026-01-12
+4,Diana Miller,diana.miller@example.com,active,7,Desk Lamp,1,22.75,22.75,2026-01-11
+4,Diana Miller,diana.miller@example.com,active,8,Office Chair,1,120.0,120.0,2026-01-15
+6,Fatima Rahman,fatima.rahman@example.com,active,10,Backpack,1,49.99,49.99,2026-01-14
+6,Fatima Rahman,fatima.rahman@example.com,active,11,Phone Charger,2,18.99,37.98,2026-01-18
+7,George Wilson,george.wilson@example.com,active,12,Noise Cancelling Headphones,1,89.9,89.9,2026-01-15
+7,George Wilson,george.wilson@example.com,active,13,Webcam,1,55.0,55.0,2026-01-16
+9,Ibrahim Khan,ibrahim.khan@example.com,active,15,External SSD 1TB,1,110.0,110.0,2026-01-17
+9,Ibrahim Khan,ibrahim.khan@example.com,active,16,Portable Power Bank,1,39.95,39.95,2026-01-20
+11,Kevin Anderson,kevin.anderson@example.com,active,18,Fitness Tracker,1,65.0,65.0,2026-01-22
+11,Kevin Anderson,kevin.anderson@example.com,active,19,Running Shoes,1,84.99,84.99,2026-01-25
+12,Laura Thomas,laura.thomas@example.com,active,20,Coffee Maker,1,59.99,59.99,2026-01-26
+14,Nadia Begum,nadia.begum@example.com,active,22,Cookware Set,1,95.0,95.0,2026-01-28
+14,Nadia Begum,nadia.begum@example.com,active,23,Dining Chair,4,45.0,180.0,2026-02-01
+15,Oliver Martin,oliver.martin@example.com,active,24,Vacuum Cleaner,1,135.0,135.0,2026-01-29
+16,Priya Patel,priya.patel@example.com,active,25,Bookshelf,1,89.0,89.0,2026-01-30
+16,Priya Patel,priya.patel@example.com,active,26,Wall Clock,1,19.99,19.99,2026-02-03
+18,Rachel Lewis,rachel.lewis@example.com,active,27,Printer Paper Pack,3,8.99,26.97,2026-02-03
+19,Samuel Walker,samuel.walker@example.com,active,28,Smartphone Tripod,2,21.99,43.98,2026-02-04
+21,Umar Farooq,umar.farooq@example.com,active,29,LED Desk Light,1,27.8,27.8,2026-02-05
+22,Victoria Clark,victoria.clark@example.com,active,30,Gaming Mouse Pad,2,14.25,28.5,2026-02-06
