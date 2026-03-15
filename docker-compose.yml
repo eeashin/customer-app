@@ -34,5 +34,20 @@ services:
     ports:
       - "8000:8000"
 
+  etl:
+    build: ./etl
+    container_name: etl
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_NAME: ${POSTGRES_DB}
+      DB_USER: ${POSTGRES_USER}
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ./output:/output
+
 volumes:
   postgres_data:
