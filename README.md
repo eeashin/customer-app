@@ -25,3 +25,24 @@ Before running the project, install following required tools-
 > **Important:** All prerequisites tools should be installed and running on system level.
 
 ---
+
+### Step 1 – Clone the Repository
+
+```
+git clone https://github.com/eeashin/customer-app.git
+cd customer-app
+```
+---
+
+### Step 2 – Create Environment Configuration
+
+Create a .env file in the project root directory and configure environment variables for DB and other application access. below is an example (feel free to use your own credntials) -
+
+```
+POSTGRES_DB=emdb1
+POSTGRES_USER=emuser1
+POSTGRES_PASSWORD=eMpass!
+
+DB_HOST=emdb1
+DB_PORT=5432
+```
