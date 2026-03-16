@@ -125,7 +125,7 @@ FastAPI was chosen because it is a modern Python web framework designed for buil
 
 - Automatic OpenAPI documentation
 
-- Strong integration with Python type hints
+- Strong integration with Python
 
 FastAPI also integrates naturally with Pydantic for data validation and response modelling.
 
